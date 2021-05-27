@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- java script libraries-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <!--firebase libraries-->
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+  <!-- database configuration -->
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAJ0KxRIGpH-lNCCXVAL3F-Hb2EM2O7dCA",
+      authDomain: "pro-c36-virtual-pet1.firebaseapp.com",
+      databaseURL: "https://pro-c36-virtual-pet1-default-rtdb.firebaseio.com",
+      projectId: "pro-c36-virtual-pet1",
+      storageBucket: "pro-c36-virtual-pet1.appspot.com",
+      messagingSenderId: "840271636227",
+      appId: "1:840271636227:web:c0128a30d82dda4928eb36"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+  <!--user defined libraries-->
+  <script src="Food.js"></script>
+
+  
+  <!--style libraries-->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+
+  <!--executable js file-->
+  <script src="sketch.js"></script>
+</body>
+
+</html>
